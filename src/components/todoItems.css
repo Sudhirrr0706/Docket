@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+.itemStyle{
+    list-style: none;
+    color: #4a53cf;
+    font-family: 'Klee One', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+.listingSection{
+    text-align: justify;
+}
+.customAddButton{
+    background-color: rgb(233, 236, 243);
+    color: #4a53cf;
+    transition: 0.5s ease-in-out;
+}
+.customAddButton:hover{
+    background-color: #4a53cf;
+    color: rgb(233, 236, 243);
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+.navbar-toggler:focus
+{
+         outline: none !important;
+         box-shadow: none;
+}
+.isDone{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+@media only screen and (max-width: 426px){
+
+    .itemStyle{
+        font-size: 18px;
+        font-weight: 200
+    }
+   
+}
